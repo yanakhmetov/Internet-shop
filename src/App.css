@@ -625,8 +625,9 @@ body{
   .renderBooks{ grid-template-columns: repeat(2, 1fr); gap:12px }
   .card{ height: 330px; border-radius: var(--radius) }
   .nameBook{ font-size:14px; min-height:36px }
-  .header{ top: 4px; }
+  .header{ top: 4px;}
   .cartBooks{ width:min(92vw, 360px) }
+  #search{width: 75%;}
 }
 
 
