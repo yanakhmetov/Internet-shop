@@ -629,7 +629,7 @@ body{
   .cartBooks{ width:min(92vw, 360px) }
   #search{width: 75%;}
   .modalBody{display: flex; flex-direction: column; justify-content: space-around;}
-  .modalOverlay{height: 90vh; position: fixed; margin: 0; top: 5vh; }
+  .modalOverlay{height: 100vh; position: fixed; margin: 0; top: 0;}
   .modal{height: 100%;}
   .modalBody{height: 100%;}
   .modalImage{height: auto; width: 40%; margin: 0 auto; }
