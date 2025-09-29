@@ -628,7 +628,12 @@ body{
   .header{ top: 4px;}
   .cartBooks{ width:min(92vw, 360px) }
   #search{width: 75%;}
-  .modalBody{display: flex; flex-direction: column;}
+  .modalBody{display: flex; flex-direction: column; justify-content: space-around;}
+  .modalOverlay{height: 90vh; position: fixed; margin: 0; top: 5vh; }
+  .modal{height: 100%;}
+  .modalBody{height: 100%;}
+  .modalImage{height: auto; width: 40%; margin: 0 auto; }
+  .modalImage img{height: 100%; width: 100%; object-fit: cover;}
 }
 
 
