@@ -353,7 +353,8 @@ body{
 
 .cartBooks{
   position:absolute;
-  right:0; top: calc(100% + 8px);
+  right:0; 
+  top: 55px;
   width: clamp(220px, 30vw, 340px);
   padding:10px;
   background: var(--surface-2);
@@ -618,6 +619,7 @@ body{
   .card{ height: clamp(160px, 55vh, 100%); width: clamp(160px, 50vw, 80%); margin: 0 auto;}
   .imgSize{ width: 80%;  aspect-ratio: 3 / 4;}
   #search{ width: clamp(160px, 50vw, 200px) }
+  .cartBooks{ width: 50vw; position: absolute; right: -20px; top: 55px; }
 }
 
 @media (max-width: 480px){
@@ -626,7 +628,7 @@ body{
   .card{ height: 330px; border-radius: var(--radius) }
   .nameBook{ font-size:14px; min-height:36px }
   .header{ top: 4px;}
-  .cartBooks{ width:min(92vw, 360px) }
+  .cartBooks{ width: 89vw; position:absolute; right: -20px; top: 55px; }
   #search{width: 75%;}
   .modalBody{display: flex; flex-direction: column; justify-content: space-around;}
   .modalOverlay{height: 100vh; position: fixed; margin: 0; top: 0;}
